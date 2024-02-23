@@ -1,0 +1,167 @@
+.active{
+  background-color: #1d4ed8;
+}
+
+nav {
+  width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    z-index: 999;
+    position: absolute;
+
+}
+
+nav .title {
+  
+  margin: 4px;
+ 
+}
+
+
+
+nav ul {
+  display: flex;
+  margin-bottom:0vw;
+  padding-left: 5px;
+}
+
+nav ul li {
+ list-style: none; 
+}
+
+nav ul li a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: 600;
+  padding: 0.7rem;
+  border-radius: 0.5rem;
+}
+
+.navbar-brand {
+    align-items: center;
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-left: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+nav ul li a:not(.active):hover {
+color:#efbf1d;
+  text-decoration: none;
+
+}
+
+nav .menu {
+  display: none;
+  position: absolute;
+  top: 0.75rem;
+  right: 0.5rem;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 2.25rem;
+  height: 2rem;
+}
+
+.icon{
+
+gap: 1rem;
+display: flex;
+margin-right: 2.5rem;
+font-size: 1.5rem;
+}
+
+.logo{
+  width: 6rem;
+  margin-top: 10px;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+text-align: left;
+padding: 5px 5px 5px 0px;
+  text-decoration: none;
+  display: block;
+}
+
+.menuIcon{
+  font-size: 1.5rem;
+ margin-top: 6px;
+ margin-right: 5px;
+}
+
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+
+
+
+@media (max-width: 680px) {
+  nav .menu {
+      display: flex;
+  
+  }
+
+  nav .icon{
+    display: none;
+  }
+
+  nav {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  nav ul {
+     overflow: hidden;
+  max-height: 0;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transition: max-height 0.3s ease-out;
+        background-color: #41433b;
+ 
+  }
+
+  nav ul.open {
+      display: flex;
+        max-height: 400px;
+    
+      
+  }
+
+  nav ul li {
+      width: 100%;
+      
+      text-align: center;
+
+  }
+
+  nav ul li a {
+      margin: 0.2rem 0.5rem;
+      width: 23rem;
+ 
+  }
+
+
+}

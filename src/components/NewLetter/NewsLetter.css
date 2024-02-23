@@ -1,0 +1,54 @@
+.News-section{
+    /* border: 1px solid crimson; */
+    height: 60vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    /* background-color: rgb(182, 172, 172); */
+
+}
+
+
+
+
+.Connect-section{
+    display: flex;
+
+}
+
+button:focus{
+cursor: pointer;
+            outline: none;
+         
+}
+
+
+.email-input{
+    border: 2px solid #82b53f;
+    padding: 0.8rem;
+    padding-right: 7rem;
+    width: 100%;
+font-size: 18px;
+}
+
+.connect-btn{
+       border: 2px solid #82b53f;
+       background-color: #82b53f;
+        padding: 1rem ;
+        font-size: 18px;
+     
+cursor: pointer;
+}
+
+
+.news-title{
+text-align: center;
+font-size: 1.5rem;
+margin: 0px 1.5rem 1.5rem 1.5rem;
+
+}
+.news-heading{
+text-align: center;
+margin: 1rem;
+}

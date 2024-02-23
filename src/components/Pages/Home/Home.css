@@ -1,0 +1,106 @@
+/* YourComponent.css */
+*{
+    font-family: 'Poppins';
+}
+
+
+.background-container {
+
+ background: rgba(0,0,0,0.7) url('../../assets/homeBg1.jpg');
+    background-size: cover;
+    background-blend-mode: multiply;
+ height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white; /* Set text color to be visible against the background */
+}
+
+.shop-button{
+    margin: auto ;
+    width: 1rem;
+    padding-bottom: 10px;
+  
+}
+
+.shop{
+    margin-left: -45px;
+}
+
+
+
+
+/* Next-Box */
+
+.Next-box{
+    /* border: 1px solid red; */
+    box-sizing: border-box;
+    /* height: 97vh; */
+
+
+}
+.hanger-box{
+width: 100%;
+    box-sizing: border-box;
+   
+
+}
+
+.title-box .h3{
+
+    justify-content: center;
+   margin-top: 2rem;
+}
+
+.hanger-img{
+
+ width: 100%;
+  height: 300px; /* Adjust the height as needed */
+  object-fit: cover;
+
+
+
+}
+
+.h2{
+    margin-top: 1rem;
+    color:#efbf1d ;
+}
+
+
+.card{
+
+  background:#202020;
+box-sizing: border-box;
+color: white;
+display: block;
+margin: auto;
+padding: 1rem;
+    bottom: 70px;
+padding: 3rem;
+    font-size: 1.3rem;
+    position:relative;
+    width: 63%;
+}
+
+
+@media (max-width: 680px) {
+
+    
+.card{
+
+  background:#202020;
+box-sizing: border-box;
+color: white;
+display: block;
+margin: auto;
+padding: 5px;
+    bottom: 65px;
+padding: 1rem;
+    font-size: 1rem;
+    position:relative;
+    width: 70%;
+}
+
+}
