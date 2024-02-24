@@ -16,14 +16,12 @@ function Home() {
           <div className=" hanger-text1">
             <div className="row ">
               <div className="col-lg-6 title-box">
-                <h1>CUSTOM MEDAL HANGERS</h1>
+                <h1 className='h1'>CUSTOM MEDAL HANGERS</h1>
                 {/* or use h2, h3, h4, h5, h6 based on your preference */}
                 <p className="lead">
                   Engrave your name with 100+ customizable sports options
                 </p>
-                {/* <button type="button" className="btn btn-warning personal-btn">
-                  PERSONALIZE NOW{" "}
-                </button> */}
+              
               </div>
               <div className="col-lg-6 hanger-box">
                 <img

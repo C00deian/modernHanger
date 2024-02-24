@@ -23,7 +23,7 @@
 .container{
 
     padding:10px 8%;
-    padding-bottom: 100px;
+    padding-bottom: 50px;
 }
 
 .container .heading{
@@ -80,6 +80,42 @@ padding: 3rem 2rem 2rem 2rem;
     box-shadow: 0 10px 15px rgba(0,0,0,.3);
     transform: scale(1.03);
 }
+
+
+/* Slider Css */
+
+.slider-btn{
+    background-color: transparent;
+    border: none;
+}
+
+
+.slider-icon{
+    border: 1px solid gold;
+font-size: 3rem;
+padding: 5px;
+cursor: pointer;
+color: #efbf1d;
+
+}
+
+.slider-icon:hover{
+background-color: #efbf1d;
+color: #202020;
+}
+
+
+.slider-buttons{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0rem 0rem 0rem;
+gap: 10px;
+
+}
+
+
 
 @media (max-width:768px){
     .container{
