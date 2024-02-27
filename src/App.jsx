@@ -9,6 +9,7 @@ import Contact from './components/Pages/Contact/Contact.jsx';
 import Shop from './components/Pages/Shop/Shop.jsx'
 import Navbar from './components/common/Navbar/Navbar.jsx';
 import Header from './components/Header/Header.jsx';
+import  Stander from "./components/Pages/Shop/Stander.jsx"
 
 
 function App() {
@@ -17,12 +18,12 @@ function App() {
   return (
     <>
       <Router>
-        <Header/>
-         <Navbar />
+        <Header />
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shop" element={<Shop />} />
-          <Route path="/blog" element={<Blog />} />
+          <Route path="/stander" element={<Stander />} />
           <Route path="/story" element={<Story />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

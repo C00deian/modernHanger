@@ -10,7 +10,7 @@ function Shop() {
     <>
       <div className="mt-32 p-6 bg-white min-h-screen relative">
         <div>
-          <h1 className="text-center">Personalized Medal Hangers</h1>
+          <h1 className="text-center">Standered Medal Hangers</h1>
         </div>
         <div className="flex items-center justify-center absolute right-[30%] top-[12%]">
           <Button title={"Best-Selling"} />
