@@ -5,6 +5,7 @@ import Info from '../../Information/Info.jsx';
 import MiddleLast from '../../middleLast/MiddleLast.jsx';
 import Footer from "../Footer/Footer.jsx"
 import NewLetter from '../../NewLetter/NewLetter.jsx';
+import Whatsap from '../../whatsapp/Whatsap.jsx';
 
 function Home() {
 
@@ -12,18 +13,14 @@ function Home() {
     return (
       <>
         <div className="background-container container-fluid">
-     
           <div className=" hanger-text1">
             <div className="row ">
               <div className="col-lg-6 title-box">
-                <h1>CUSTOM MEDAL HANGERS</h1>
+                <h1 className="h1">CUSTOM MEDAL HANGERS</h1>
                 {/* or use h2, h3, h4, h5, h6 based on your preference */}
                 <p className="lead">
                   Engrave your name with 100+ customizable sports options
                 </p>
-                {/* <button type="button" className="btn btn-warning personal-btn">
-                  PERSONALIZE NOW{" "}
-                </button> */}
               </div>
               <div className="col-lg-6 hanger-box">
                 <img
@@ -38,9 +35,12 @@ function Home() {
         </div>
         <div className="Next-box">
           <div className="card">
-            <h2 className='text-center h2'>Make Memorable Times Last a Lifetime </h2>
-            <p className='text-center'>
-              The Medal Hangrer Were expertly  developed to  turn  your winning <br />
+            <h2 className="text-center h2">
+              Make Memorable Times Last a Lifetime{" "}
+            </h2>
+            <p className="text-center">
+              The Medal Hangrer Were expertly developed to turn your winning{" "}
+              <br />
               moments into unforgetable memories
             </p>
             {/* <div class="shop-button">
@@ -50,7 +50,7 @@ function Home() {
           
             </div> */}
           </div>
-{/* 
+          {/* 
           <div className="container hanger-text">
             <div className="row hanger-container">
               <div className="col-lg-6 title-box">
@@ -73,10 +73,12 @@ function Home() {
             </div>
           </div> */}
         </div>
+        <Whatsap></Whatsap>
         <Info></Info>
+
         <MiddleLast />
         <NewLetter></NewLetter>
-          <Footer/> 
+        <Footer />
       </>
     );
 }

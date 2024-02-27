@@ -1,0 +1,37 @@
+/* styles.css */
+ .fixed-button {
+  position: fixed;
+  bottom: 200px;
+  right: -15px;
+
+background-color: transparent;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+
+
+
+
+
+.whats-app-btn {
+  width: 7rem; /* Adjust the size as needed */
+  border-radius: 50%;
+  animation: pulse 2s infinite; 
+filter: drop-shadow(6px  6px 4px white);
+
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
