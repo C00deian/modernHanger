@@ -159,10 +159,10 @@ const Footer = () => {
                       </li>
                     </ul>
                     <div className="flex space-x-6">
-                      <a href="#" className="text-white hover:text-gray-500">
+                      <a href="#" className="text-white hover:text-yellow-500">
                         <span className="sr-only">Facebook</span>
                         <svg
-                          className="h-6 w-6"
+                          className="h-6 w-6 text-yellow-500 hover:shadow-yellow-400 hover:shadow-lg"
                           fill="currentColor"
                           viewBox="0 0 24 24"
                           aria-hidden="true"
@@ -174,7 +174,7 @@ const Footer = () => {
                           />
                         </svg>
                       </a>
-                      
+
                       <a
                         href="#"
                         className="text-white hover:text-blue-4      00"
@@ -184,7 +184,7 @@ const Footer = () => {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 16 16"
                           fill="currentColor"
-                          className="w-4 h-4"
+                          className="w-4 h-4 text-[#f0c125] hover:shadow-yellow-400 hover:shadow-lg rounded-full"
                         >
                           <path d="M2.75 2a.75.75 0 0 0-.75.75v10.5a.75.75 0 0 0 1.5 0v-2.624l.33-.083A6.044 6.044 0 0 1 8 11c1.29.645 2.77.807 4.17.457l1.48-.37a.462.462 0 0 0 .35-.448V3.56a.438.438 0 0 0-.544-.425l-1.287.322C10.77 3.808 9.291 3.646 8 3a6.045 6.045 0 0 0-4.17-.457l-.34.085A.75.75 0 0 0 2.75 2Z" />
                         </svg>
@@ -225,7 +225,7 @@ const Footer = () => {
               </div>
             </div>
             <div className="mt-16 border-t border-gray-900/10 p-3 sm:mt-20 lg:mt-24 bg-[#2a2a2a]">
-              <p className="text-xl leading-5 text-gray-500 text-center pt-2">
+              <p className="text-xl leading-5 text-white text-center pt-2">
                 © 2024 The Medal Hanger, All rights reserved.
               </p>
             </div>
