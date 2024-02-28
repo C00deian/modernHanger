@@ -21,7 +21,9 @@ function Shop() {
             <p className="m-2 p-3 text-large">
               Personalized <br /> Medal Display <br />
               Hanger For Athletes <br />
-              <del>Rs. 1,999.00</del>
+              <del>
+                <span>Rs. 1,999.00</span>
+              </del>
               <span className="text-red-600 ml-2">Rs. 1,499.00</span>
             </p>
           </div>
