@@ -15,7 +15,7 @@ function Shop() {
         <div className="flex items-center justify-center absolute right-[30%] top-[12%]">
           <Button title={"Best-Selling"} />
         </div>
-        <div className="justify-center items-center mt-20 gap-6 flex flex-wrap  ">
+        <div className="justify-center items-center mt-24 gap-6 flex flex-wrap  ">
           <div className="p-4 shadow-xl text-center  hover:bg-gray-100 duration-150 ">
             <img src={Hanger} alt="logo" className="w-72" />
             <p className="m-2 p-3 text-large">

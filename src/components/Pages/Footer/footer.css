@@ -1,0 +1,4 @@
+.home::before{
+    content: "-";
+    gap:1rem;
+}
