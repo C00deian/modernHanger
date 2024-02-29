@@ -4,8 +4,9 @@ import Hanger from "../../assets/Hanger1.jpg";
 import Footer from "../Footer/Footer";
 import Button from "../../Button/Button";
 import MiddleLast from "../../middleLast/MiddleLast";
+import Whatsap from "../../whatsapp/Whatsap";
 
-function Shop() {
+function Standerd() {
   return (
     <>
       <div className="mt-32 p-6 bg-white min-h-screen relative">
@@ -56,8 +57,9 @@ function Shop() {
       </div>
       <MiddleLast />
       <Footer />
+      <Whatsap></Whatsap>
     </>
   );
 }
 
-export default Shop;
+export default Standerd;

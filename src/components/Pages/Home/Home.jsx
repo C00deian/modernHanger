@@ -73,12 +73,13 @@ function Home() {
             </div>
           </div> */}
         </div>
-        <Whatsap></Whatsap>
+
         <Info></Info>
 
         <MiddleLast />
         <NewLetter></NewLetter>
         <Footer />
+        <Whatsap></Whatsap>
       </>
     );
 }
