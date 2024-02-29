@@ -9,25 +9,13 @@
  background: rgba(0,0,0,0.7) url('../../assets/homeBg1.jpg');
     background-size: cover;
     background-blend-mode: multiply;
- height: 100vh;
+ height: 103vh;
   display: flex;
   align-items: center;
   justify-content: center;
 
   color: white; /* Set text color to be visible against the background */
 }
-
-.shop-button{
-    margin: auto ;
-    width: 1rem;
-    padding-bottom: 10px;
-  
-}
-
-.shop{
-    margin-left: -45px;
-}
-
 
 
 
@@ -58,8 +46,8 @@ width: 100%;
 
 .hanger-img{
 
- width:20rem;
-   
+ width:25rem;
+   padding: 15px;
 
 }
 

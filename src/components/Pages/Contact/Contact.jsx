@@ -1,11 +1,84 @@
-import React from 'react'
-import './Contact.css'
+import React from "react";
+import "./Contact.css";
+import Baner from "../../Utility/Baner";
+// import Hanger from "../../assets/Hanger1.jpg";
+import Footer from "../Footer/Footer";
+import NewLetter from "../../NewLetter/NewLetter";
+import MiddleLast from "../../middleLast/MiddleLast";
+import Whatsap from "../../whatsapp/Whatsap";
 
 function Contact() {
   return (
-    
-    <div> I am Contact</div>
-  )
+    <>
+      <div className="mt-32 bg-white min-h-screen relative">
+        <Baner></Baner>
+        <div className="container-fluid">
+          <div className="Contact-Container">
+            <div className="row ">
+              <div className="col-lg-6 Contact">
+                <p className="contact-paragraph">
+                  You can email us anytime at Blueeaglepvtltd@Gmail.Com
+                  <br />{" "}
+                  <p className="contact-paragraph contactp2">
+                    You can also call us Monday - Saturday from 9 a.m - 6 p.m
+                    IST at +91 93153 37736
+                  </p>
+                </p>
+
+                <p className="Contact-Address">
+                  PLOT No. 9 , Khasra No. 424, Bhankari Village , Pali Road
+                  Industrial Area, Faridabad, Haryana - 121005
+                </p>
+              </div>
+              <div className="col-lg-6 Contact-box">
+                <div className="Contact-Form-container">
+                  <h4 className="heading-h4">DROP US A LINE</h4>
+
+                  <label for="Your Name" className="label">
+                    {" "}
+                    Your Name (requrid)
+                  </label>
+
+                  <input type="text" className="form-input"></input>
+
+                  <label for="Your Name" className="label">
+                    {" "}
+                    Your Email (requrid)
+                  </label>
+
+                  <input type="text" className="form-input"></input>
+
+                  <label for="Your Name" className="label">
+                    {" "}
+                    Your Phone Number{" "}
+                  </label>
+
+                  <input type="text" className="form-input"></input>
+                  <label for="Your Name" className="label">
+                    {" "}
+                    Your Massgege
+                  </label>
+                  <textarea
+                    name=""
+                    id=""
+                    cols="20"
+                    rows="8"
+                    className="form-input"
+                  ></textarea>
+
+                  <button className="send-btn">Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <MiddleLast />
+      <NewLetter></NewLetter>
+      <Footer />
+      <Whatsap></Whatsap>
+    </>
+  );
 }
 
-export default Contact
+export default Contact;

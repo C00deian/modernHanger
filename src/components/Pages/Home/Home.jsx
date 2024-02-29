@@ -7,8 +7,8 @@ import Footer from "../Footer/Footer.jsx"
 import NewLetter from '../../NewLetter/NewLetter.jsx';
 import Whatsap from '../../whatsapp/Whatsap.jsx';
 
-function Home() {
 
+function Home() {
 
     return (
       <>
@@ -17,7 +17,7 @@ function Home() {
             <div className="row ">
               <div className="col-lg-6 title-box">
                 <h1 className="h1">CUSTOM MEDAL HANGERS</h1>
-                {/* or use h2, h3, h4, h5, h6 based on your preference */}
+               
                 <p className="lead">
                   Engrave your name with 100+ customizable sports options
                 </p>
@@ -75,7 +75,7 @@ function Home() {
         </div>
 
         <Info></Info>
-
+   
         <MiddleLast />
         <NewLetter></NewLetter>
         <Footer />

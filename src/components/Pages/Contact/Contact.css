@@ -1,0 +1,88 @@
+.Contact-Container{
+/* border:  1px solid blue; */
+display: flex;
+justify-content: space-around;
+margin: 5rem 0;
+
+}
+
+.Contact{
+ display: flex;
+ flex-direction: column;
+
+}
+
+
+
+.Contact-Form-container{
+/* border : 1px solid gold; */
+display: flex;
+flex-direction: column;
+
+}
+
+.heading-h4{
+    font-size: x-large;
+    font-weight: 600;
+    color: #efbf1d;
+    margin-bottom: 1rem;
+}
+
+
+.contact-paragraph{
+    font-weight: 500;
+    color: black;
+    font-size: 18px;
+
+}
+
+.contactp2{
+    margin: 1rem  0px;
+}
+
+.Contact-Address{
+    font-size: 20px
+}
+
+.form-input{
+     border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 1px;
+margin: 12px 0px;
+
+}
+.form-input:focus{
+     border: 1px solid #555353;
+    padding: 10px;
+    border-radius: 1px;
+margin: 12px 0px;
+
+}
+
+
+.label{
+    margin: 0px;
+    margin-top: 5px;
+  
+}
+
+.send-btn{
+    border: 3px solid black;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    padding: 10px;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+.send-btn:hover{
+    border: 3px solid black;
+    border-radius: 1.5rem;
+    margin-top: 1rem;
+    padding: 10px;
+    background-color: #efbf1d ;
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+}
+
