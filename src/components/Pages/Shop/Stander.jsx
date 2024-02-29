@@ -10,7 +10,7 @@ function Shop() {
     <>
       <div className="mt-32 p-6 bg-white min-h-screen relative">
         <div>
-          <h1 className="text-center">Personalized Medal Hangers</h1>
+          <h1 className="text-center">Standered Medal Hangers</h1>
         </div>
         <div className="flex items-center justify-center absolute right-[30%] top-[12%]">
           <Button title={"Best-Selling"} />
@@ -21,9 +21,7 @@ function Shop() {
             <p className="m-2 p-3 text-large">
               Personalized <br /> Medal Display <br />
               Hanger For Athletes <br />
-              <del>
-                <span>Rs. 1,999.00</span>
-              </del>
+              <del>Rs. 1,999.00</del>
               <span className="text-red-600 ml-2">Rs. 1,499.00</span>
             </p>
           </div>
