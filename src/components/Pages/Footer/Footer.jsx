@@ -1,12 +1,14 @@
 import React from "react";
+import logo from "../../assets/finalLogo.png";
 
 const Footer = () => {
+  
   return (
     <>
       <>
         {/* component */}
         <footer
-          className="bg-black text-white "
+          className="bg-[#202020] text-white "
           aria-labelledby="footer-heading"
         >
           <h2 id="footer-heading" className="sr-only">
@@ -15,11 +17,8 @@ const Footer = () => {
           <div className="mx-auto max-w-7xl px-6 pb-8 pt-16 sm:pt-24 lg:px-8 lg:pt-32">
             <div className="xl:grid xl:grid-cols-3 xl:gap-8">
               <div className="space-y-8">
-                <img
-                  className="h-20"
-                  src="https://static.vecteezy.com/system/resources/previews/023/654/784/non_2x/golden-logo-template-free-png.png"
-                  alt="Company name"
-                />
+                <img className="h-20" src={logo} alt="Company name" />
+                <h2>THE MEDAL HANGER</h2>
                 <p className="text-sm leading-6 text-white">
                   Give your loved ones the opportunity to keep their triumphant
                   memories alive with personalized medal hangers
@@ -102,7 +101,7 @@ const Footer = () => {
                 <div className="md:grid md:grid-cols-2 md:gap-8">
                   <div>
                     <h3 className="text-sm font-semibold leading-6  text-white">
-                      Solutions
+                      Quick Links
                     </h3>
                     <ul role="list" className="mt-6 space-y-4 list-none">
                       <li>
@@ -110,7 +109,7 @@ const Footer = () => {
                           href="#"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
-                          Marketing
+                          Home
                         </a>
                       </li>
                       <li>
@@ -118,7 +117,7 @@ const Footer = () => {
                           href="#"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
-                          Analytics
+                          Shop Now
                         </a>
                       </li>
                       <li>
@@ -126,7 +125,7 @@ const Footer = () => {
                           href="#"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
-                          Commerce
+                          Contact Us
                         </a>
                       </li>
                       <li>
@@ -134,7 +133,7 @@ const Footer = () => {
                           href="#"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
-                          Insights
+                          Blog
                         </a>
                       </li>
                     </ul>
@@ -143,7 +142,7 @@ const Footer = () => {
                     <h3 className="text-sm font-semibold leading-6 text-white">
                       Support
                     </h3>
-                    <ul role="list" className="mt-6 space-y-4 list-none" >
+                    <ul role="list" className="mt-6 space-y-4 list-none">
                       <li>
                         <a
                           href="#"
@@ -229,7 +228,7 @@ const Footer = () => {
                   </div>
                   <div className="mt-10 md:mt-0">
                     <h3 className="text-sm font-semibold leading-6 text-white">
-                      Legal
+                      Connect with us
                     </h3>
                     <ul role="list" className="mt-6 space-y-4 list-none">
                       <li>
@@ -237,7 +236,7 @@ const Footer = () => {
                           href="#"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
-                          Claim
+                          +91 9XXXXXXXXX
                         </a>
                       </li>
                       <li>
@@ -245,7 +244,7 @@ const Footer = () => {
                           href="#"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
-                          Privacy
+                        blueeaglepvtltd@gmail.com
                         </a>
                       </li>
                       <li>
@@ -253,19 +252,20 @@ const Footer = () => {
                           href="#"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
-                          Terms
+                          Plot No. 9 , Khasra No. 424, Bhankri Village , Pali Road Industrial Area, Faridabad, Haryana - 121005
                         </a>
                       </li>
                     </ul>
                   </div>
+                  
                 </div>
               </div>
             </div>
-            <div className="mt-16 border-t border-gray-900/10 pt-8 sm:mt-20 lg:mt-24">
-              <p className="text-xs leading-5 text-gray-500">
-                © 2020 Your Company, Inc. All rights reserved.
-              </p>
-            </div>
+          </div>
+          <div className=" bg-[#2a2a2a] flex justify-center items-center ">
+            <p className="text-lg text-white pt-4">
+              © 2024 All rights reserved The Medal Hanger
+            </p>
           </div>
         </footer>
       </>

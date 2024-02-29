@@ -92,7 +92,7 @@ padding: 3rem 2rem 2rem 2rem;
 
 .slider-icon{
     border: 1px solid gold;
-font-size: 3rem;
+font-size: 2rem;
 padding: 5px;
 cursor: pointer;
 color: #efbf1d;
@@ -110,7 +110,7 @@ color: #202020;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem 0rem 0rem 0rem;
+    margin: 2rem 0rem 0rem 0rem;
 gap: 10px;
 
 }

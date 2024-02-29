@@ -26,7 +26,7 @@ function Home() {
                 <img
                   src={Hanger}
                   alt=""
-                  className="hanger-img"
+                  className="hanger-img "
                   style={{ objectFit: "cover" }}
                 />
               </div>
@@ -39,8 +39,8 @@ function Home() {
               Make Memorable Times Last a Lifetime{" "}
             </h2>
             <p className="text-center">
-              The Medal Hangrer Were expertly developed to turn your winning{" "}
-              <br />
+              The Medal Hangrer Were expertly developed to turn your{" "}
+              <del>winning</del> <br />
               moments into unforgetable memories
             </p>
             {/* <div class="shop-button">
