@@ -10,7 +10,7 @@ import Whatsap from "../../whatsapp/Whatsap";
 function Contact() {
   return (
     <>
-      <div className="mt-32 bg-white min-h-screen relative">
+      <div className="mt-28 bg-white min-h-screen relative">
         <Baner></Baner>
         <div className="container-fluid">
           <div className="Contact-Container">

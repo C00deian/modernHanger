@@ -6,6 +6,7 @@ import MiddleLast from '../../middleLast/MiddleLast.jsx';
 import Footer from "../Footer/Footer.jsx"
 import NewLetter from '../../NewLetter/NewLetter.jsx';
 import Whatsap from '../../whatsapp/Whatsap.jsx';
+import Catelogue from '../../Catelogue/Catelogue.jsx';
 
 
 function Home() {
@@ -17,7 +18,7 @@ function Home() {
             <div className="row ">
               <div className="col-lg-6 title-box">
                 <h1 className="h1">CUSTOM MEDAL HANGERS</h1>
-               
+
                 <p className="lead">
                   Engrave your name with 100+ customizable sports options
                 </p>
@@ -73,9 +74,9 @@ function Home() {
             </div>
           </div> */}
         </div>
-
+        <Catelogue></Catelogue>
         <Info></Info>
-   
+
         <MiddleLast />
         <NewLetter></NewLetter>
         <Footer />
