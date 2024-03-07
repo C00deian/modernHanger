@@ -34,7 +34,8 @@
 }
 
 .containerr .box-containerr .box img{
-    height: 120px ;
+  width: 100%;
+    max-width: 90px;
 }
 
 .containerr .box-containerr .box h3{
