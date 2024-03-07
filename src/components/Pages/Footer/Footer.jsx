@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../assets/finalLogo.png";
-
+import { Link } from "react-router-dom";
 const Footer = () => {
   
   return (
@@ -21,7 +21,10 @@ const Footer = () => {
                   memories alive with personalized medal hangers
                 </p>
                 <div className="flex space-x-6">
-                  <a href="#" className="text-white hover:text-gray-500">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61556338081504"
+                    className="text-white hover:text-gray-500"
+                  >
                     <span className="sr-only">Facebook</span>
                     <svg
                       className="h-6 w-6"
@@ -94,83 +97,45 @@ const Footer = () => {
                   </a>
                 </div>
               </div>
-              <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+              <div className="mt-16 sm:grid grid-cols-2  xl:col-span-2 xl:mt-0">
                 <div className="md:grid md:grid-cols-2 md:gap-8">
-                  <div>
-                    <h3 className="text-sm font-semibold leading-6  text-white">
+                  <div></div>
+                  <div className="mt-10 md:mt-0">
+                    <h3 className="text-sm font-semibold leading-6 text-white">
                       Quick Links
                     </h3>
                     <ul role="list" className="mt-6 space-y-4 list-none">
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="/"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
                           Home
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="/Personalized"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
                           Shop Now
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="/contact"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
-                          Contact Us
-                        </a>
+                          Contact us
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="/"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
-                          Blog
-                        </a>
-                      </li>
-                    </ul>
-                  </div>
-                  <div className="mt-10 md:mt-0">
-                    <h3 className="text-sm font-semibold leading-6 text-white">
-                      Support
-                    </h3>
-                    <ul role="list" className="mt-6 space-y-4 list-none">
-                      <li>
-                        <a
-                          href="#"
-                          className="text-sm leading-6 text-white hover:text-gray-500"
-                        >
-                          Pricing
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="text-sm leading-6 text-white hover:text-gray-500"
-                        >
-                          Documentation
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="text-sm leading-6 text-white hover:text-gray-500"
-                        >
-                          Guides
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="text-sm leading-6 text-white hover:text-gray-500"
-                        >
-                          API Status
-                        </a>
+                          About
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -181,22 +146,6 @@ const Footer = () => {
                       Company
                     </h3>
                     <ul role="list" className="mt-6 space-y-4 list-none">
-                      <li>
-                        <a
-                          href="#"
-                          className="text-sm leading-6 text-white hover:text-gray-500"
-                        >
-                          About
-                        </a>
-                      </li>
-                      <li>
-                        <a
-                          href="#"
-                          className="text-sm leading-6 text-white hover:text-gray-500"
-                        >
-                          Blog
-                        </a>
-                      </li>
                       <li>
                         <a
                           href="#"
@@ -229,29 +178,29 @@ const Footer = () => {
                     </h3>
                     <ul role="list" className="mt-6 space-y-4 list-none">
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="https://wa.me/919315337736"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
                           +91 93153 37736
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="mailto:blueeaglepvtltd@gmail.com"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
                           blueeaglepvtltd@gmail.com
-                        </a>
+                        </Link>
                       </li>
                       <li>
-                        <a
-                          href="#"
+                        <Link
+                          to="https://www.google.com/maps/place/Plot+No.9+Bhankri-Pali+road+(Industrial+Shed)/@28.3874925,77.2546338,17z/data=!3m1!4b1!4m6!3m5!1s0x390cdf1000f0eccb:0xa7599e3e666fe2cf!8m2!3d28.3874925!4d77.2572087!16s%2Fg%2F11svwpjxy9?entry=ttu"
                           className="text-sm leading-6 text-white hover:text-gray-500"
                         >
                           Plot No. 9 , Khasra No. 424, Bhankri Village , Pali
                           Road Industrial Area, Faridabad, Haryana - 121005
-                        </a>
+                        </Link>
                       </li>
                     </ul>
                   </div>
@@ -260,7 +209,7 @@ const Footer = () => {
             </div>
           </div>
           <div className=" bg-[#2a2a2a] flex justify-center items-center ">
-            <p className="text-lg text-white pt-4">
+            <p className="text-sm text-white pt-3">
               © 2024 All rights reserved The Medal Hanger
             </p>
           </div>

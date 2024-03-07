@@ -6,12 +6,15 @@ const ProductDisplay = ({ productDetails }) => {
   const [hoveredImage, setHoveredImage] = useState(null);
 
   return (
-    <div className="Main-Container mt-28">
+    <div className="Main-Container ">
       <div className="main-box">
         <img
           src={hoveredImage || productDetails.images[0]}
           alt=""
-          width="540px"
+          style={{
+            maxWidth: "480px",
+            width: "100%",
+          }}
         />
         <div className="small-container">
           {productDetails.images.map((image, index) => (
@@ -22,15 +25,16 @@ const ProductDisplay = ({ productDetails }) => {
               width="60%"
               className={`img-small ${hoveredImage === image ? "hovered" : ""}`}
               onMouseOver={() => setHoveredImage(image)}
-              onMouseOut={() => setHoveredImage(null)}
+              onMouseOut={() => setHoveredImage(image)}
             />
           ))}
         </div>
       </div>
       <div className="product-details-container">
         <h2>{productDetails.title}</h2>
-        <hr />
+
         <div className="brand">Brand: {productDetails.brand}</div>
+        <hr />
         <div className="price">{productDetails.price}</div>
         <div className="taxes">{productDetails.taxInfo}</div>
         <div className="emi">{productDetails.emiInfo}</div>
@@ -48,9 +52,11 @@ const ProductDisplay = ({ productDetails }) => {
         {/* About this item section */}
         <div className="about-item">
           <h3>About this item</h3>
-          {productDetails.about.map((paragraph, index) => (
-            <p key={index}>{paragraph}</p>
-          ))}
+          <ul>
+            {productDetails.about.map((paragraph, index) => (
+              <li key={index}>{paragraph}</li>
+            ))}
+          </ul>
         </div>
       </div>
     </div>

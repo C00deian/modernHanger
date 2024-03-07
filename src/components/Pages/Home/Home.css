@@ -1,7 +1,11 @@
 /* YourComponent.css */
 *{
-    font-family: 'Poppins';
+   
+      text-transform:none !important;
 }
+
+
+
 
 
 .background-container {
@@ -16,7 +20,14 @@
 
   color: white; /* Set text color to be visible against the background */
 }
+.title-box .h1{
 
+    justify-content: center;
+   margin-top: 2rem;
+   font-size: 3rem;
+   font-weight: 600;
+ 
+} 
 
 
 /* Next-Box */
@@ -35,14 +46,6 @@ width: 100%;
 
 }
 
-.title-box .h1{
-
-    justify-content: center;
-   margin-top: 2rem;
-   font-size: 3rem;
-   font-weight: 600;
- 
-}
 
 .hanger-img{
 
@@ -55,6 +58,8 @@ width: 100%;
     margin-top: 1rem;
     color:#efbf1d ;
 }
+
+
 
 
 .card{
@@ -74,7 +79,25 @@ padding: 4rem;
 
 @media (max-width: 680px) {
 
-    
+   
+.title-box .h1{
+
+    justify-content: center;
+  
+   font-size: 2.5rem;
+   font-weight: 600;
+ 
+} 
+
+.title-box{
+  margin-left: 15px;
+}
+
+
+
+
+
+
 .card{
 
   background:#202020;

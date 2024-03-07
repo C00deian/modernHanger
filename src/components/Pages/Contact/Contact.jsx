@@ -17,7 +17,7 @@ function Contact() {
             <div className="row ">
               <div className="col-lg-6 Contact">
                 <p className="contact-paragraph">
-                  You can email us anytime at Blueeaglepvtltd@Gmail.Com
+                  You can email us anytime at Blueeaglepvtltd@gmail.com
                   <br />{" "}
                   <p className="contact-paragraph contactp2">
                     You can also call us Monday - Saturday from 9 a.m - 6 p.m
@@ -26,7 +26,7 @@ function Contact() {
                 </p>
 
                 <p className="Contact-Address">
-                  PLOT No. 9 , Khasra No. 424, Bhankari Village , Pali Road
+                  Plot No. 9 , Khasra No. 424, Bhankari Village , Pali Road
                   Industrial Area, Faridabad, Haryana - 121005
                 </p>
               </div>

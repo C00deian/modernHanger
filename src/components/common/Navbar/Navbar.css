@@ -72,7 +72,7 @@ nav .menu {
 
 gap: 1rem;
 display: flex;
-padding-right: 165px;
+padding-right: 130px;
 font-size: 1.5rem;
 }
 
@@ -108,15 +108,9 @@ padding: 5px 5px 5px 0px;
  margin-right: 5px;
 }
 
-/* 
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;} */
 
 
-
-
-
+/* Navbar Dropdown Styling  {Shop} */
 
 .dropdown {
   position: relative;
@@ -149,18 +143,28 @@ padding: 5px 5px 5px 0px;
 
 
 @media (max-width: 680px) {
+ 
+
   nav .menu {
       display: flex;
   
   }
 
+
+
+  .logo{
+  width: 4rem;
+  margin-top: 5px;
+}
+
   nav .icon{
     display: none;
+  
   }
 
   nav {
       flex-direction: column;
-      align-items: flex-start;
+
   }
 
   nav ul {
@@ -170,13 +174,13 @@ padding: 5px 5px 5px 0px;
   align-items: center;
   flex-direction: column;
   transition: max-height 0.3s ease-out;
-        background-color: #41433b;
+        background-color: rgba(166, 167, 164, 0.959);
  
   }
 
   nav ul.open {
       display: flex;
-        max-height: 400px;
+        max-height: 450px;
     
       
   }

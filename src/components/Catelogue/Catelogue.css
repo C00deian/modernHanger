@@ -10,6 +10,9 @@
     transition: .2s linear;
 } */
 
+Link{
+    text-decoration: none;
+}
 
 .containerrr .heading{
     text-align: center;
@@ -24,7 +27,7 @@
 
 .containerrr .box-containerrr{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     gap: 10px;
  
 }
@@ -34,17 +37,29 @@
     border-radius: 3px;
     background: #fff;
     text-align: center;
-    padding:20px  0px;
+    padding-top: 20px;
+   
+}
+.containerrr .box-containerrr .box:hover{
+    box-shadow: 0 10px 15px rgba(0,0,0,.3);
+    transform: scale(.99);
+ text-decoration: none;
 }
 
+
 .containerrr .box-containerrr .box img{
-    height: 350px ;
+ 
+   width: 100%;
+   padding: 5px;
+    max-width: 360px;
+    object-fit: cover;
+    box-sizing: border-box;
 }
 
 .containerrr .box-containerrr .box h3{
     color:#444;
     font-size: 22px;
-    padding:20px 0px 0px 0px;
+    padding:  15px;
 }
 
 .containerrr .box-containerrr .box p{
@@ -64,10 +79,13 @@
 @media (max-width:768px){
 
     .containerrr .box-containerrr .box img{
-    height: 350px ;
+   width: 100%;
+   object-fit: cover;
+    padding: 0px 20px 5px 15px;
+    border-radius: 10px;
 }
     .containerrr{
-        padding:20px;
+ padding: 10px;
         display: flex;
         justify-content: center;
         align-items: center;

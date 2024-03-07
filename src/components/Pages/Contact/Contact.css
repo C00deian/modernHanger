@@ -5,6 +5,10 @@ justify-content: space-around;
 margin: 5rem 0;
 
 }
+*{
+    font-family: 'Poppins';
+      text-transform:none !important;
+}
 
 .Contact{
  display: flex;
@@ -42,6 +46,7 @@ flex-direction: column;
 
 .Contact-Address{
     font-size: 20px
+    
 }
 
 .form-input{

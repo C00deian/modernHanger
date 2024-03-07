@@ -3,21 +3,36 @@
   position: fixed;
   bottom: 0;
   right: 5px;
-
 background-color: transparent;
   border: none;
-  border-radius: 5px;
+
   cursor: pointer;
   
+}
+
+.facbook-btn{
+/* 
+     border: 1px solid gold; */
+    position: fixed;
+    right: 80px;
+    bottom: 10px;
+cursor: pointer;
+  background-color: transparent;
+    border-radius: 50%;
+  animation: pulse 2s infinite; 
+filter: drop-shadow(2px  2px 4px white);
+}
+
+
+.Contact-btn{
+  display: flex;
 }
 
 
 
 
-
-
 .whats-app-btn {
-  width: 5rem; /* Adjust the size as needed */
+   width: 5rem;
   border-radius: 50%;
   animation: pulse 2s infinite; 
 filter: drop-shadow(2px  2px 4px white);

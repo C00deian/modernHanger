@@ -4,6 +4,8 @@ import { MdArrowForwardIos, MdOutlineArrowBackIosNew } from "react-icons/md";
 import Acknowladge from "../assets/motivate.png";
 import medal from "../assets/medal.png";
 import happiness from "../assets/happiness.png";
+import values from '../assets/values.png'
+import trust from '../assets/trust.png'
 
 function Info() {
   const [activeBox, setActiveBox] = useState(0);
@@ -28,13 +30,13 @@ function Info() {
         "Your life's lowest points require additional fuel to keep you going.",
     },
     {
-      image: Acknowladge,
+      image: trust,
       title: "Respect the accomplishments",
       description:
         "A present that increases the winning quotient and recognizes the accomplishment of your loved one.",
     },
     {
-      image: happiness,
+      image: values,
       title: "Organizing the Valuables",
       description:
         "Keep your priceless medals arranged instead of storing them in attics.",

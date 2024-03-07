@@ -24,14 +24,14 @@ function Catelogue() {
         <div className="box-containerrr">
           <Link to="/MoreInfo" className="MoreInfobtn">
             <div className="box">
-              <img src={NeverGiveUp} alt="" />
+              <img src={NeverGiveUp} alt="" className="img-fluid" />
               <h3>NEVER GIVE UP</h3>
               {/* <p>Every medal hanger is made to express your thoughts.</p> */}
             </div>
           </Link>
           <Link to="/Marathon">
             <div className="box">
-              <img src={Marathon} alt="" />
+              <img src={Marathon} alt="" className="img-fluid" />
               <h3>MARATHONER</h3>
               {/* <p>
               Get a guaranteed 30-day money back guarantee when you place an
@@ -41,7 +41,7 @@ function Catelogue() {
           </Link>
           <Link to="/NoPain">
             <div className="box">
-              <img src={Nopain} alt="" />
+              <img src={Nopain} alt="" className="img-fluid" />
               <h3>NO-PAIN NO-GAIN</h3>
               {/* <p>
               Get a guaranteed 30-day money back guarantee when you place an
@@ -56,7 +56,7 @@ function Catelogue() {
         <div className="box-containerrr">
           <Link to="/Sports">
             <div className="box">
-              <img src={Sports} alt="" className="box-img" />
+              <img src={Sports} alt="" className="img-fluid" />
               <h3>SPORTS</h3>
               {/* <p>Every medal hanger is made to express your thoughts.</p> */}
             </div>
@@ -64,7 +64,7 @@ function Catelogue() {
 
           <Link to="/run">
             <div className="box">
-              <img src={Runner} alt="" />
+              <img src={Runner} alt="" className="img-fluid" />
               <h3>RUNNER</h3>
               {/* <p>Every transaction is protected by end-to-end encryption</p> */}
             </div>
@@ -72,18 +72,18 @@ function Catelogue() {
 
           <Link to="/UnStoppable">
             <div className="box">
-              <img src={Unstopable} alt="" />
+              <img src={Unstopable} alt="" className="img-fluid" />
               <h3>UNSTOPPABLE</h3>
               {/* <p>Every transaction is protected by end-to-end encryption</p> */}
             </div>
           </Link>
-          <Link to="/Miles">
+          {/* <Link to="/Miles">
             <div className="box">
               <img src={MilesofMem} alt="" />
               <h3>MILES OF MEMORY</h3>
          
             </div>
-          </Link>
+          </Link> */}
         </div>
       </div>
     </>

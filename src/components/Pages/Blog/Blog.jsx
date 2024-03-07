@@ -29,12 +29,13 @@ function Blog() {
      NeverGiveUp4,
    ],
    details: [
-     "Colour: Black",
-     "Brand: Generic",
-     "Material: Metal",
-     "Finish Type: Metallic",
-     "Shape: Rectangular",
-     "Included Components: Metal",
+     
+     "Colour:  Black",
+     "Brand:  Generic",
+     "Material:  Metal",
+     "Finish Type:  Metallic",
+     "Shape:  Rectangular",
+     "Included Components:  Metal",
    ],
    about: [
      "Black in color",

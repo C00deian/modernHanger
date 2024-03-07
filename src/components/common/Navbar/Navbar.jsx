@@ -37,9 +37,7 @@ const MyNavbar = () => {
           </div>
         </div>
 
-        <li>
-          <Link to="/blog">BLOG</Link>
-        </li>
+       
         <li>
           <Link to="/story">STORY</Link>
         </li>
