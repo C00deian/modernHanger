@@ -4,9 +4,9 @@ import './Catelogue.css'
 import Nopain from '../assets/Catelogue/No pain no gain/No-Pain.jpg'
 import MilesofMem from "../assets/Catelogue/Miles Of Memory/2.jpg";
 import NeverGiveUp from '../assets/Catelogue/Never give up/Never-give-up.jpg'
-import Runner from "../assets/Catelogue/Runner/Run.jpg";
-import Sports from "../assets/Catelogue/Sports/Sports.jpg";
-import Marathon from '../assets/Catelogue/Merathoner/2.jpg'
+import Runner from "../assets/Sports/Runner/Run.jpg";
+import Sports from "../assets/Sports/Sports/Sports.jpg";
+import Marathon from '../assets/Sports/Merathoner/2.jpg'
 import Unstopable from "../assets/Catelogue/Unstopable/Unstoppable.jpg";
 import { Link } from 'react-router-dom';
 // import NeverGiveup from '../assets/Catelogue/Never give up/Never-give-up.jpg'

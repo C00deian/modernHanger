@@ -6,12 +6,12 @@ import NewLetter from "../NewLetter/NewLetter";
 import MiddleLast from "../middleLast/MiddleLast";
 import Whatsap from "../whatsapp/Whatsap";
 
-import Marathon from "../assets/Catelogue/Sports/Sports.jpg";
+import Marathon from "../assets/Sports/Sports/Sports.jpg";
 
-import Marathon1 from "../assets/Catelogue/Sports/Sports1.1.jpg";
-import Marathon2 from "../assets/Catelogue/Sports/Sports1.jpg";
-import Marathon3 from "../assets/Catelogue/Sports/Sports2.jpg";
-import Marathon4 from "../assets/Catelogue/Sports/Sports3.jpg";
+import Marathon1 from "../assets/Sports/Sports/Sports1.1.jpg";
+import Marathon2 from "../assets/Sports/Sports/Sports1.jpg";
+import Marathon3 from "../assets/Sports/Sports/Sports2.jpg";
+import Marathon4 from "../assets/Sports/Sports/Sports3.jpg";
 
 function Sports() {
   const product1Details6 = {

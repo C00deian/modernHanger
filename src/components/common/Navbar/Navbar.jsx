@@ -33,7 +33,7 @@ const MyNavbar = () => {
           </li>
           <div class="dropdown-content">
             <Link to="/Personalized">Personalized Medal Hanger</Link>
-            <Link to="/standerd">Standerd Medal Hanger</Link>
+            <Link to="/standerd">Sports Medal Hanger</Link>
           </div>
         </div>
 

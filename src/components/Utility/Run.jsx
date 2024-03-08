@@ -6,12 +6,12 @@ import NewLetter from '../NewLetter/NewLetter';
 import MiddleLast from '../middleLast/MiddleLast';
 import Whatsap from '../whatsapp/Whatsap';
 
-import Marathon from '../assets/Catelogue/Runner/Run.jpg'
+import Marathon from '../assets/Sports/Runner/Run.jpg'
 
-import Marathon1 from '../assets/Catelogue/Runner/Run1.jpg'
-import Marathon2 from "../assets/Catelogue/Runner/Run2.jpg";
-import Marathon3 from "../assets/Catelogue/Runner/Run3.jpg";
-import Marathon4 from "../assets/Catelogue/Runner/Run4.jpg";
+import Marathon1 from '../assets/Sports/Runner/Run1.jpg'
+import Marathon2 from "../assets/Sports/Runner/Run2.jpg";
+import Marathon3 from "../assets/Sports/Runner/Run3.jpg";
+import Marathon4 from "../assets/Sports/Runner/Run4.jpg";
 function Run() {
            const product1Details4 = {
              title: "Blueeagle Medal Hanger",

@@ -5,10 +5,10 @@ import NewLetter from '../NewLetter/NewLetter';
 import MiddleLast from '../middleLast/MiddleLast';
 import Whatsap from '../whatsapp/Whatsap';
 
-import Marathon1 from '../assets/Catelogue/Merathoner/1.jpg'
-import Marathon2 from "../assets/Catelogue/Merathoner/2.jpg";
-import Marathon3 from "../assets/Catelogue/Merathoner/3.jpg";
-import Marathon4 from "../assets/Catelogue/Merathoner/4.jpg";
+import Marathon1 from '../assets/Sports/Merathoner/1.jpg'
+import Marathon2 from "../assets/Sports/Merathoner/2.jpg";
+import Marathon3 from "../assets/Sports/Merathoner/3.jpg";
+import Marathon4 from "../assets/Sports/Merathoner/4.jpg";
 
 
 function Marathon() {
