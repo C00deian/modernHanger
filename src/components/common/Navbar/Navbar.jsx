@@ -26,12 +26,18 @@ const MyNavbar = () => {
         <li>
           <Link to="/">HOME</Link>
         </li>
-        <li>
-          <Link to="/shop">SHOP</Link>
-        </li>
-        <li>
-          <Link to="/stander">BLOG</Link>
-        </li>
+
+        <div className="dropdown">
+          <li>
+            <Link to="/">SHOP</Link>
+          </li>
+          <div class="dropdown-content">
+            <Link to="/Personalized">Personalized Medal Hanger</Link>
+            <Link to="/standerd">Sports Medal Hanger</Link>
+          </div>
+        </div>
+
+       
         <li>
           <Link to="/story">STORY</Link>
         </li>

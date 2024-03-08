@@ -1,8 +1,8 @@
 import React from "react";
 import "./MiddleLast.css";
 import gear from '.././assets/gear.png'
-import world from '.././assets/world.png'
-import secure from '.././assets/secure.png'
+import world from '.././assets/world-wide.png'
+import secure from '.././assets/lock.png'
 import MoneyBack from '.././assets/moneyback.png'
 
 

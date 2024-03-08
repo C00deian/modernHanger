@@ -1,0 +1,133 @@
+.Main-Container{
+    /* border: 1px solid crimson; */
+    display: flex;
+margin: 8rem 3rem 1rem 3rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.main-box{
+  display: flex;
+  flex-direction: column;
+ 
+  align-items: center;
+}
+
+
+
+
+.small-container{
+ 
+    display: flex;
+    justify-content: center;
+ 
+}
+
+
+.img-small{
+width: 80px;
+margin: 5px;
+box-sizing: border-box;
+padding: 5px;
+border: 2px solid transparent; /* Initially set a transparent border */
+  display: flex;
+
+}
+.img-small:hover{
+
+border: 3px solid rgb(60, 4, 214);
+border-radius: 5px;
+  box-shadow: 1px 2px 4px #7bcb4d;
+cursor: pointer;
+}
+/* External CSS file (e.g., Blog.css) */
+
+.main-image {
+  transition: border 0.3s ease;
+  box-sizing: border-box; /* Add a smooth transition for the border */
+  width: 60%;
+}
+
+
+
+
+
+
+/* ProductDetails.css */
+
+.product-details-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 0 20px;
+  width: 100%;
+}
+
+.brand{
+  font-weight: bold;
+     color: #007185;
+}
+
+.price{
+  font-weight: bold;
+}
+
+
+.product-details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-details li {
+  margin-bottom: 5px;
+}
+
+.about-item ul{
+ list-style: disc;
+  padding: 0;
+  padding: 2px 4px 2px 0px;
+}
+
+@media (max-width: 768px) {
+
+.main-box{
+margin-top: 4rem;
+}
+
+
+
+
+
+  /* Apply responsive styles for screens up to 768px wide */
+  .product-details-container {
+    padding: 10px;
+  }
+
+.Main-Container{
+    /* border: 1px solid crimson; */
+    display: block;
+    margin: 1rem;
+    cursor: pointer;
+    padding: 1rem;
+}
+.small-container{
+ justify-content: center;
+    display: flex;
+ align-items: center;
+}
+
+.img-small{
+width: 60px;
+margin: 5px;
+box-sizing: border-box;
+padding: 5px;
+border: 2px solid transparent; /* Initially set a transparent border */
+  display: flex;
+
+}
+
+
+
+
+}
+
+

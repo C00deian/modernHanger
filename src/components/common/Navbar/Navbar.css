@@ -23,7 +23,7 @@ nav .title {
 nav ul {
   display: flex;
   margin-bottom:0vw;
-  padding-left: 5px;
+
 }
 
 nav ul li {
@@ -72,7 +72,7 @@ nav .menu {
 
 gap: 1rem;
 display: flex;
-margin-right: 2.5rem;
+padding-right: 130px;
 font-size: 1.5rem;
 }
 
@@ -109,26 +109,62 @@ padding: 5px 5px 5px 0px;
 }
 
 
+
+/* Navbar Dropdown Styling  {Shop} */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 300px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+
+}
+
+.dropdown-content a {
+  color: black;
+   
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {color: #80b63e;}
+
 .dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {background-color: #3e8e41;}
-
 
 
 
 @media (max-width: 680px) {
+ 
+
   nav .menu {
       display: flex;
   
   }
 
+
+
+  .logo{
+  width: 4rem;
+  margin-top: 5px;
+}
+
   nav .icon{
     display: none;
+  
   }
 
   nav {
       flex-direction: column;
-      align-items: flex-start;
+
   }
 
   nav ul {
@@ -138,13 +174,13 @@ padding: 5px 5px 5px 0px;
   align-items: center;
   flex-direction: column;
   transition: max-height 0.3s ease-out;
-        background-color: #41433b;
+        background-color: rgba(166, 167, 164, 0.959);
  
   }
 
   nav ul.open {
       display: flex;
-        max-height: 400px;
+        max-height: 450px;
     
       
   }

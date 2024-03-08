@@ -6,9 +6,11 @@ import MiddleLast from '../../middleLast/MiddleLast.jsx';
 import Footer from "../Footer/Footer.jsx"
 import NewLetter from '../../NewLetter/NewLetter.jsx';
 import Whatsap from '../../whatsapp/Whatsap.jsx';
+import Catelogue from '../../Catelogue/Catelogue.jsx';
+import handleWhatsApp from "../../Utility/WhatsAppUtils.jsx";
+
 
 function Home() {
-
 
     return (
       <>
@@ -17,11 +19,17 @@ function Home() {
             <div className="row ">
               <div className="col-lg-6 title-box">
                 <h1 className="h1">CUSTOM MEDAL HANGERS</h1>
-                {/* or use h2, h3, h4, h5, h6 based on your preference */}
-                <p className="lead">
+
+                <p className="lead ">
                   Engrave your name with 100+ customizable sports options
                 </p>
+                <div className="shop-button">
+                  <button className="btn btn-warning shop" type="button" onClick={handleWhatsApp}>
+                   Customized Medal
+                  </button>
+                </div>
               </div>
+
               <div className="col-lg-6 hanger-box">
                 <img
                   src={Hanger}
@@ -43,12 +51,6 @@ function Home() {
               <del>winning</del> <br />
               moments into unforgetable memories
             </p>
-            {/* <div class="shop-button">
-              <button class="btn btn-warning shop" type="button">
-                SHOP NOW
-              </button>
-          
-            </div> */}
           </div>
           {/* 
           <div className="container hanger-text">
@@ -73,12 +75,13 @@ function Home() {
             </div>
           </div> */}
         </div>
-        <Whatsap></Whatsap>
+        <Catelogue></Catelogue>
         <Info></Info>
 
         <MiddleLast />
         <NewLetter></NewLetter>
         <Footer />
+        <Whatsap></Whatsap>
       </>
     );
 }

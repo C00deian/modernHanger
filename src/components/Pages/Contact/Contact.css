@@ -1,0 +1,81 @@
+* {
+  font-family: "Poppins";
+  text-transform: none !important;
+}
+
+.Main-Contact {
+  margin-top: 7.3rem;
+}
+
+.Contact-Container {
+  /* border:  1px solid blue; */
+  display: flex;
+  justify-content: space-around;
+  margin: 5rem 0;
+}
+
+.Contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.Contact-Form-container {
+  /* border : 1px solid gold; */
+  display: flex;
+  flex-direction: column;
+}
+
+.heading-h4 {
+  font-size: x-large;
+  font-weight: 600;
+  color: #efbf1d;
+  margin-bottom: 1rem;
+}
+
+.contact-paragraph {
+  font-weight: 500;
+  color: black;
+  font-size: 18px;
+}
+
+.contactp2 {
+  margin: 1rem 0px;
+}
+
+.Contact-Address {
+  font-size: 20px;
+}
+
+.form-input {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 1px;
+  margin: 12px 0px;
+}
+.form-input:focus {
+  border: 1px solid #555353;
+  padding: 10px;
+  border-radius: 1px;
+  margin: 12px 0px;
+}
+
+.label {
+  margin: 0px;
+  margin-top: 5px;
+}
+
+.send-btn {
+  background-color: #efbf1d;
+  border-radius: 5px;
+  margin-top: 1rem;
+  padding: 10px;
+
+  font-weight: bold;
+}
+
+.send-btn:hover {
+  background-color: #d8a705;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+}
