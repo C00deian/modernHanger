@@ -2,10 +2,6 @@ import React from 'react'
 import './Home.css'
 import Hanger from '../../assets/Hanger1.jpg'
 import Info from '../../Information/Info.jsx';
-import MiddleLast from '../../middleLast/MiddleLast.jsx';
-import Footer from "../Footer/Footer.jsx"
-import NewLetter from '../../NewLetter/NewLetter.jsx';
-import Whatsap from '../../whatsapp/Whatsap.jsx';
 import Catelogue from '../../Catelogue/Catelogue.jsx';
 import handleWhatsApp from "../../Utility/WhatsAppUtils.jsx";
 
@@ -77,11 +73,6 @@ function Home() {
         </div>
         <Catelogue></Catelogue>
         <Info></Info>
-
-        <MiddleLast />
-        <NewLetter></NewLetter>
-        <Footer />
-        <Whatsap></Whatsap>
       </>
     );
 }

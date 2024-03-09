@@ -1,9 +1,6 @@
 import React from 'react'
 import ProductDisplay from '../ProductDisplay';
-import Footer from '../Pages/Footer/Footer';
-import NewLetter from '../NewLetter/NewLetter';
-import MiddleLast from '../middleLast/MiddleLast';
-import Whatsap from '../whatsapp/Whatsap';
+
 
 import Marathon1 from '../assets/Sports/Merathoner/1.jpg'
 import Marathon2 from "../assets/Sports/Merathoner/2.jpg";
@@ -43,10 +40,7 @@ function Marathon() {
   return (
     <>
       <ProductDisplay productDetails={product1Details1} />
-      <MiddleLast />
-      <NewLetter />
-      <Footer />
-      <Whatsap />
+    
     </>
   );
 }

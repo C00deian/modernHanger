@@ -1,10 +1,5 @@
 import React from "react";
 import ProductDisplay from "../ProductDisplay";
-import Footer from "../Pages/Footer/Footer";
-import NewLetter from "../NewLetter/NewLetter";
-import MiddleLast from "../middleLast/MiddleLast";
-import Whatsap from "../whatsapp/Whatsap";
-
 import Marathon1 from "../assets/Catelogue/Miles Of Memory/1.jpg";
 import Marathon2 from "../assets/Catelogue/Miles Of Memory/2.jpg";
 import Marathon3 from "../assets/Catelogue/Miles Of Memory/3.jpg";
@@ -36,10 +31,7 @@ function MilesofMeals() {
   return (
     <>
       <ProductDisplay productDetails={product1Details2} />
-      <MiddleLast />
-      <NewLetter />
-      <Footer />
-      <Whatsap />
+    
     </>
   );
 }

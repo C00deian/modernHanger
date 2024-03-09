@@ -2,7 +2,7 @@ import React from 'react'
 
 import './Catelogue.css'
 import Nopain from '../assets/Catelogue/No pain no gain/No-Pain.jpg'
-import MilesofMem from "../assets/Catelogue/Miles Of Memory/2.jpg";
+
 import NeverGiveUp from '../assets/Catelogue/Never give up/Never-give-up.jpg'
 import Runner from "../assets/Sports/Runner/Run.jpg";
 import Sports from "../assets/Sports/Sports/Sports.jpg";
