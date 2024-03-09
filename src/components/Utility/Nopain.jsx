@@ -1,9 +1,6 @@
 import React from 'react'
 import ProductDisplay from '../ProductDisplay';
-import Footer from '../Pages/Footer/Footer';
-import NewLetter from '../NewLetter/NewLetter';
-import MiddleLast from '../middleLast/MiddleLast';
-import Whatsap from '../whatsapp/Whatsap';
+
 
 import Marathon1 from '../assets/Catelogue/No pain no gain/No-Pain.jpg'
 import Marathon2 from "../assets/Catelogue/No pain no gain/No-Pain1.jpg";
@@ -41,10 +38,6 @@ function Nopain() {
   return (
     <>
       <ProductDisplay productDetails={product1Details3} />
-      <MiddleLast />
-      <NewLetter />
-      <Footer />
-      <Whatsap />
     </>
   );
 }

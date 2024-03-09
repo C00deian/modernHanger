@@ -1,9 +1,7 @@
-
 import './App.css'
 
-import {BrowserRouter as Router,Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from './components/Pages/Home/Home.jsx'
-//import Blog from './components/Pages/Blog/Blog.jsx';
 import Story from './components/Pages/Story/Story.jsx';
 import Contact from './components/Pages/Contact/Contact.jsx';
 import Navbar from './components/common/Navbar/Navbar.jsx';
@@ -17,6 +15,10 @@ import Nopain from './components/Utility/Nopain.jsx';
 import Run from './components/Utility/Run.jsx';
 import UnStoppable from './components/Utility/UnStoppable.jsx';
 import Sports from './components/Utility/Sports.jsx';
+import Footer from './components/Pages/Footer/Footer.jsx';
+import NewLetter from './components/NewLetter/NewLetter.jsx';
+import Whatsap from './components/whatsapp/Whatsap.jsx';
+import MiddleLast from './components/middleLast/MiddleLast.jsx';
 
 function App() {
 
@@ -40,6 +42,10 @@ function App() {
           <Route path="/UnStoppable" element={<UnStoppable />} />
           <Route path="/Sports" element={<Sports />} />
         </Routes>
+        <MiddleLast />
+        <NewLetter></NewLetter>
+        <Footer />
+        <Whatsap></Whatsap>
       </Router>
     </>
   );

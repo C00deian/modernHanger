@@ -9,8 +9,15 @@ nav {
     position: absolute;
     background-color: rgba(0, 0, 0, 0.091);
      
-
 }
+
+/* Conditonally Styling */
+.black-navbar {
+  background-color: #2a2a2a;
+  color: white;
+}
+
+
 
 nav .title {
   

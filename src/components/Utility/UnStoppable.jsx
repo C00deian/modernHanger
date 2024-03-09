@@ -1,9 +1,5 @@
 import React from "react";
 import ProductDisplay from "../ProductDisplay";
-import Footer from "../Pages/Footer/Footer";
-import NewLetter from "../NewLetter/NewLetter";
-import MiddleLast from "../middleLast/MiddleLast";
-import Whatsap from "../whatsapp/Whatsap";
 
 import Marathon from "../assets/Catelogue/Unstopable/Unstoppable.jpg";
 import Marathon1 from "../assets/Catelogue/Unstopable/Unstoppable1.jpg";
@@ -38,10 +34,7 @@ function UnStoppable() {
   return (
     <>
       <ProductDisplay productDetails={product1Details5} />
-      <MiddleLast />
-      <NewLetter />
-      <Footer />
-      <Whatsap />
+   
     </>
   );
 }

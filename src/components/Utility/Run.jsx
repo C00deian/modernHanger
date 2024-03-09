@@ -1,13 +1,7 @@
 import React from 'react'
-
 import ProductDisplay from '../ProductDisplay';
-import Footer from '../Pages/Footer/Footer';
-import NewLetter from '../NewLetter/NewLetter';
-import MiddleLast from '../middleLast/MiddleLast';
-import Whatsap from '../whatsapp/Whatsap';
 
 import Marathon from '../assets/Sports/Runner/Run.jpg'
-
 import Marathon1 from '../assets/Sports/Runner/Run1.jpg'
 import Marathon2 from "../assets/Sports/Runner/Run2.jpg";
 import Marathon3 from "../assets/Sports/Runner/Run3.jpg";
@@ -38,10 +32,7 @@ function Run() {
   return (
     <>
       <ProductDisplay productDetails={product1Details4} />
-      <MiddleLast />
-      <NewLetter />
-      <Footer />
-      <Whatsap />
+    
     </>
   );
 }

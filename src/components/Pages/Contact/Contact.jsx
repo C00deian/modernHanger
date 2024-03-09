@@ -2,10 +2,7 @@ import React from "react";
 import "./Contact.css";
 import Baner from "../../Utility/Baner";
 // import Hanger from "../../assets/Hanger1.jpg";
-import Footer from "../Footer/Footer";
-import NewLetter from "../../NewLetter/NewLetter";
-import MiddleLast from "../../middleLast/MiddleLast";
-import Whatsap from "../../whatsapp/Whatsap";
+
 
 function Contact() {
   return (
@@ -73,10 +70,7 @@ function Contact() {
           </div>
         </div>
       </div>
-      <MiddleLast />
-      <NewLetter></NewLetter>
-      <Footer />
-      <Whatsap></Whatsap>
+  
     </>
   );
 }
