@@ -1,19 +1,21 @@
 import React from "react";
-import ProductDisplay from "../ProductDisplay";
-import Marathon from "../assets/Sports/Sports/Sports.jpg";
-import Marathon1 from "../assets/Sports/Sports/Sports1.1.jpg";
-import Marathon2 from "../assets/Sports/Sports/Sports1.jpg";
-import Marathon3 from "../assets/Sports/Sports/Sports2.jpg";
-import Marathon4 from "../assets/Sports/Sports/Sports3.jpg";
+import ProductDisplay from "../../ProductDisplay";
 
-function Sports() {
-  const product1Details6 = {
+import Marathon from "../../assets/Catelogue/Unstopable/Unstoppable.jpg";
+import Marathon1 from "../../assets/Catelogue/Unstopable/Unstoppable1.jpg";
+import Marathon2 from "../../assets/Catelogue/Unstopable/Unstoppable2.jpg";
+import Marathon3 from "../../assets/Catelogue/Unstopable/Unstoppable3.jpg";
+import Marathon4 from "../../assets/Catelogue/Unstopable/Unstoppable4.jpg";
+import Marathon5 from "../../assets/Catelogue/Unstopable/Unstoppable5.jpg";
+
+function UnStoppable() {
+  const product1Details5 = {
     title: "Blueeagle Medal Hanger",
     brand: "Generic",
     price: "₹ 598.00",
     taxInfo: "Inclusive of all taxes",
     emiInfo: "EMI starts at ₹109 per month. EMI options",
-    images: [Marathon, Marathon1, Marathon2, Marathon3, Marathon4],
+    images: [Marathon, Marathon1, Marathon2, Marathon3, Marathon4, Marathon5],
     details: [
       "Colour: Black",
       "Brand: Generic",
@@ -31,10 +33,10 @@ function Sports() {
   };
   return (
     <>
-      <ProductDisplay productDetails={product1Details6} />
-     
+      <ProductDisplay productDetails={product1Details5} />
+   
     </>
   );
 }
 
-export default Sports;
+export default UnStoppable;

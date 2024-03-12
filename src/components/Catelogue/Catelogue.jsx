@@ -1,8 +1,7 @@
 import React from 'react'
-
 import './Catelogue.css'
-import Nopain from '../assets/Catelogue/No pain no gain/No-Pain.jpg'
 
+import Nopain from '../assets/Catelogue/No pain no gain/No-Pain.jpg'
 import NeverGiveUp from '../assets/Catelogue/Never give up/Never-give-up.jpg'
 import Runner from "../assets/Sports/Runner/Run.jpg";
 import Sports from "../assets/Sports/Sports/Sports.jpg";
@@ -75,7 +74,7 @@ function Catelogue() {
                    <span className="line-through"> Rs. 1,080.00 </span>
                    <span className="text-red-600 ml-2  ">Rs. 598.00</span>
               </p>
-              <Link to="/Sports">
+              <Link to="/Sport">
                 <span className="overlay">View More</span>
               </Link>
             </div>

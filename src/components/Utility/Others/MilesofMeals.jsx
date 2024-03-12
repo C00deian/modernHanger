@@ -1,9 +1,9 @@
 import React from "react";
-import ProductDisplay from "../ProductDisplay";
-import Miles1 from "../assets/Catelogue/Miles Of Memory/1.jpg";
-import Miles2 from "../assets/Catelogue/Miles Of Memory/2.jpg";
-import Miles3 from "../assets/Catelogue/Miles Of Memory/3.jpg";
-import Miles4 from "../assets/Catelogue/Miles Of Memory/4.jpg";
+import ProductDisplay from "../../ProductDisplay";
+import Miles1 from "../../assets/Catelogue/Miles Of Memory/1.jpg";
+import Miles2 from "../../assets/Catelogue/Miles Of Memory/2.jpg";
+import Miles3 from "../../assets/Catelogue/Miles Of Memory/3.jpg";
+import Miles4 from "../../assets/Catelogue/Miles Of Memory/4.jpg";
 
 function MilesofMeals() {
   const product1Details2 = {

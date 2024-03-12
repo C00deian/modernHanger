@@ -10,5 +10,27 @@
   text-align: center;
 font-size:1.2rem;
 color: #202020;
+  overflow: hidden;
     
+}
+
+
+
+.marquee {
+  white-space: nowrap;
+  display: inline-block;
+  animation: marquee-scroll 20s linear infinite;
+}
+
+.marquee.paused {
+  animation-play-state: paused;
+}
+
+@keyframes marquee-scroll {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }

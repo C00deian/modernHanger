@@ -1,10 +1,10 @@
 import React from 'react'
-import ProductDisplay from '../ProductDisplay';
+import ProductDisplay from '../../ProductDisplay';
 
-import Academy1 from '../assets/Catelogue/Acadmic/1.jpg'
-import Academy2 from '../assets/Catelogue/Acadmic/2.jpg'
-import Academy3 from '../assets/Catelogue/Acadmic/3.jpg'
-import Academy4 from '../assets/Catelogue/Acadmic/4.jpg'
+import Academy1 from '../../assets/Catelogue/Acadmic/1.jpg'
+import Academy2 from '../../assets/Catelogue/Acadmic/2.jpg'
+import Academy3 from '../../assets/Catelogue/Acadmic/3.jpg'
+import Academy4 from '../../assets/Catelogue/Acadmic/4.jpg'
 function Academy() {
     const acadmey = {
         title: "Blueeagle Medal Hanger",

@@ -242,7 +242,7 @@ function SportCatelogue() {
                                 <span className="line-through"> Rs. 1,080.00 </span>
                                 <span className="text-red-600 ml-2  ">Rs. 598.00</span>
                             </p>
-                                <Link to="/Chess">
+                                <Link to="/Football">
                                 <span className="overlay">View More</span>
                             </Link>
                         </div>
@@ -257,7 +257,7 @@ function SportCatelogue() {
                                 <span className="line-through"> Rs. 1,080.00 </span>
                                 <span className="text-red-600 ml-2  ">Rs. 598.00</span>
                             </p>
-                                <Link to="/Sports">
+                                <Link to="/Sport">
                                 <span className="overlay">View More</span>
                             </Link>
                         </div>

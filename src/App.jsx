@@ -9,12 +9,12 @@ import Header from './components/Header/Header.jsx';
 import  Stander from "./components/Pages/Shop/Stander.jsx"
 import Personalize from './components/Pages/Shop/Personalize.jsx';
 import Blog from './components/Pages/Blog/Blog.jsx';
-import Marathon from './components/Utility/Marathon.jsx';
-import MilesofMeals from './components/Utility/MilesofMeals.jsx';
-import Nopain from './components/Utility/Nopain.jsx';
-import Run from './components/Utility/Run.jsx';
-import UnStoppable from './components/Utility/UnStoppable.jsx';
-import Sports from './components/Utility/Sports.jsx';
+import Marathon from './components/Utility/Others/Marathon.jsx';
+import MilesofMeals from './components/Utility/Others/MilesofMeals.jsx';
+import Nopain from './components/Utility/Others/Nopain.jsx';
+import Run from './components/Utility/Others/Run.jsx';
+import UnStoppable from './components/Utility/Others/UnStoppable.jsx';
+import Sports from './components/Utility/Others/Sports.jsx';
 import Footer from './components/Pages/Footer/Footer.jsx';
 import NewLetter from './components/NewLetter/NewLetter.jsx';
 import Whatsap from './components/whatsapp/Whatsap.jsx';
@@ -29,7 +29,7 @@ import Cricket from './components/Utility/Sport/Cricket.jsx';
 import Cycling from './components/Utility/Sport/Cycling.jsx';
 import Dancer from './components/Utility/Sport/Dancer.jsx';
 import Yoga from './components/Utility/Sport/Yoga.jsx';
-import Academy from './components/Utility/Academy.jsx';
+import Academy from './components/Utility/Others/Academy.jsx';
 import BodyBuild from './components/Utility/Sport/BodyBuild.jsx';
 import Football from './components/Utility/Sport/Football.jsx';
 function App() {
@@ -56,7 +56,7 @@ function App() {
           <Route path="/Academy" element={<Academy/>} />
 
           {/* Sports Route */}
-          <Route path="/Sports" element={<Sports />} />
+          <Route path="/Sport" element={<Sports />} />
           <Route path="/Rifle" element={<Airrfile />} />
           <Route path="/Badminton" element={<Badminton />} />
           <Route path="/Baseball" element={<Baseball />} />
@@ -68,9 +68,8 @@ function App() {
           <Route path="/Dancer" element={<Dancer />} />
           <Route path="/Yoga" element={<Yoga />} />
           <Route path="/Body" element={<BodyBuild />} />
-          <Route path="/Footbaal" element={<Football/>} />
+          <Route path="/Football" element={<Football/>} />
 
-    
 
         </Routes>
         <MiddleLast />

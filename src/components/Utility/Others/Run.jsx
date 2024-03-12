@@ -1,11 +1,11 @@
 import React from 'react'
-import ProductDisplay from '../ProductDisplay';
+import ProductDisplay from '../../ProductDisplay';
 
-import Runner from '../assets/Sports/Runner/Run.jpg'
-import Runner1 from '../assets/Sports/Runner/Run1.jpg'
-import Runner2 from "../assets/Sports/Runner/Run2.jpg";
-import Runner3 from "../assets/Sports/Runner/Run3.jpg";
-import Runner4 from "../assets/Sports/Runner/Run4.jpg";
+import Runner from '../../assets/Sports/Runner/Run.jpg'
+import Runner1 from '../../assets/Sports/Runner/Run1.jpg'
+import Runner2 from "../../assets/Sports/Runner/Run2.jpg";
+import Runner3 from "../../assets/Sports/Runner/Run3.jpg";
+import Runner4 from "../../assets/Sports/Runner/Run4.jpg";
 function Run() {
            const product1Details4 = {
              title: "Blueeagle Medal Hanger",

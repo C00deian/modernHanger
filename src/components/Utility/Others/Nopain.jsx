@@ -1,10 +1,10 @@
 import React from 'react'
-import ProductDisplay from '../ProductDisplay';
+import ProductDisplay from '../../ProductDisplay';
 
 
-import NoPain1 from '../assets/Catelogue/No pain no gain/No-Pain.jpg'
-import NoPain2 from "../assets/Catelogue/No pain no gain/No-Pain1.jpg";
-import NoPain3 from "../assets/Catelogue/No pain no gain/No-PainDetails-+.jpg";
+import NoPain1 from '../../assets/Catelogue/No pain no gain/No-Pain.jpg'
+import NoPain2 from "../../assets/Catelogue/No pain no gain/No-Pain1.jpg";
+import NoPain3 from "../../assets/Catelogue/No pain no gain/No-PainDetails-+.jpg";
 
 
 function Nopain() {

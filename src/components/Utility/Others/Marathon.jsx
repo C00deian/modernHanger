@@ -1,11 +1,11 @@
 import React from 'react'
-import ProductDisplay from '../ProductDisplay';
+import ProductDisplay from '../../ProductDisplay';
 
 
-import Marathon1 from '../assets/Sports/Merathoner/1.jpg'
-import Marathon2 from "../assets/Sports/Merathoner/2.jpg";
-import Marathon3 from "../assets/Sports/Merathoner/3.jpg";
-import Marathon4 from "../assets/Sports/Merathoner/4.jpg";
+import Marathon1 from '../../assets/Sports/Merathoner/1.jpg'
+import Marathon2 from "../../assets/Sports/Merathoner/2.jpg";
+import Marathon3 from "../../assets/Sports/Merathoner/3.jpg";
+import Marathon4 from "../../assets/Sports/Merathoner/4.jpg";
 
 
 function Marathon() {
