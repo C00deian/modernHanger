@@ -1,8 +1,7 @@
 import React from 'react'
-
 import './Catelogue.css'
-import Nopain from '../assets/Catelogue/No pain no gain/No-Pain.jpg'
 
+import Nopain from '../assets/Catelogue/No pain no gain/No-Pain.jpg'
 import NeverGiveUp from '../assets/Catelogue/Never give up/Never-give-up.jpg'
 import Runner from "../assets/Sports/Runner/Run.jpg";
 import Sports from "../assets/Sports/Sports/Sports.jpg";
@@ -16,74 +15,98 @@ import { Link } from 'react-router-dom';
 
 function Catelogue() {
 
-
-  
   return (
     <>
       <div className="containerrr">
         <div className="box-containerrr">
-          <Link to="/MoreInfo" className="MoreInfobtn">
-            <div className="box">
+        
+            <div className="box hover-container">
               <img src={NeverGiveUp} alt="" className="img-fluid" />
-              <h3>NEVER GIVE UP</h3>
-              {/* <p>Every medal hanger is made to express your thoughts.</p> */}
+           <p className="m-2 p-3 text-large leading-5 font-semibold">
+              Personalized Medal Display <br />
+              Hanger For Athletes <br />
+                 <span className="line-through"> Rs. 1,080.00 </span>
+                 <span className="text-red-600 ml-2  ">Rs. 598.00</span>
+            </p>
+              <Link to="/MoreInfo">
+                <span className="overlay">View More</span>
+              </Link>
             </div>
-          </Link>
-          <Link to="/Marathon">
-            <div className="box">
+          
+       
+            <div className="box hover-container">
               <img src={Marathon} alt="" className="img-fluid" />
-              <h3>MARATHONER</h3>
-              {/* <p>
-              Get a guaranteed 30-day money back guarantee when you place an
-              order.
-            </p> */}
+              <p className="m-2 p-3 text-large leading-5 font-semibold">
+                Marathoner Medal Display <br />
+                Hanger For Athletes <br />
+                   <span className="line-through"> Rs. 1,080.00 </span>
+                   <span className="text-red-600 ml-2  ">Rs. 598.00</span>
+              </p>
+              <Link to="/Marathon">
+                <span className="overlay">View More</span>
+              </Link>
             </div>
-          </Link>
-          <Link to="/NoPain">
-            <div className="box">
+      
+        
+            <div className="box hover-container">
               <img src={Nopain} alt="" className="img-fluid" />
-              <h3>NO-PAIN NO-GAIN</h3>
-              {/* <p>
-              Get a guaranteed 30-day money back guarantee when you place an
-              order.
-            </p> */}
+              <p className="m-2 p-3 text-large leading-5 font-semibold">
+                Personalized Medal Display <br />
+                Hanger For Athletes <br />
+                   <span className="line-through"> Rs. 1,080.00 </span>
+                   <span className="text-red-600 ml-2  ">Rs. 598.00</span>
+              </p>
+              <Link to="/NoPain">
+                <span className="overlay">View More</span>
+              </Link>
             </div>
-          </Link>
+        
         </div>
       </div>
-
       <div className="containerrr">
         <div className="box-containerrr">
-          <Link to="/Sports">
-            <div className="box">
+    
+            <div className="box hover-container">
               <img src={Sports} alt="" className="img-fluid" />
-              <h3>SPORTS</h3>
-              {/* <p>Every medal hanger is made to express your thoughts.</p> */}
+              <p className="m-2 p-3 text-large leading-5 font-semibold">
+                Sports Medal Display <br />
+                Hanger For Athletes <br />
+                   <span className="line-through"> Rs. 1,080.00 </span>
+                   <span className="text-red-600 ml-2  ">Rs. 598.00</span>
+              </p>
+              <Link to="/Sport">
+                <span className="overlay">View More</span>
+              </Link>
             </div>
-          </Link>
-
-          <Link to="/run">
-            <div className="box">
+       
+            <div className="box hover-container">
               <img src={Runner} alt="" className="img-fluid" />
-              <h3>RUNNER</h3>
-              {/* <p>Every transaction is protected by end-to-end encryption</p> */}
+              <p className="m-2 p-3 text-large leading-5 font-semibold">
+                Runner Medal Display <br />
+                Hanger For Athletes <br />
+                   <span className="line-through"> Rs. 1,080.00 </span>
+                   <span className="text-red-600 ml-2  ">Rs. 598.00</span>
+              </p>
+              <Link to="/run">
+                <span className="overlay">View More</span>
+              </Link>
             </div>
-          </Link>
+    
 
-          <Link to="/UnStoppable">
-            <div className="box">
+            <div className="box hover-container">
               <img src={Unstopable} alt="" className="img-fluid" />
-              <h3>UNSTOPPABLE</h3>
-              {/* <p>Every transaction is protected by end-to-end encryption</p> */}
+        <p className="m-2 p-3 text-large leading-5 font-semibold">
+              Personalized Medal Display <br />
+              Hanger For Athletes <br />
+                 <span className="line-through"> Rs. 1,080.00 </span>
+                 <span className="text-red-600 ml-2  ">Rs. 598.00</span>
+            </p>
+              <Link to="/UnStoppable">
+                <span className="overlay">View More</span>
+              </Link>
             </div>
-          </Link>
-          {/* <Link to="/Miles">
-            <div className="box">
-              <img src={MilesofMem} alt="" />
-              <h3>MILES OF MEMORY</h3>
-         
-            </div>
-          </Link> */}
+       
+        
         </div>
       </div>
     </>

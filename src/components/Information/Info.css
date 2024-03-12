@@ -44,8 +44,12 @@ padding: 3rem 2rem 2rem 2rem;
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
     border-radius: 5px;
     background: #fff;
+flex-direction: column;
+    display: flex;
     text-align: center;
-    padding:30px 20px;
+    justify-content: center;
+    padding: 1rem;
+    align-items: center;
 }
 
 
@@ -55,14 +59,14 @@ padding: 3rem 2rem 2rem 2rem;
 }
 
 .container .box-container .box h3{
-    color:#444;
+    color:#202020;
     font-size: 22px;
     padding:10px 0;
 }
 
 .container .box-container .box p{
-    color:#777;
-    font-size: 15px;
+    color:#202020;
+    font-size: 16px;
     line-height: 1.5;
 }
 

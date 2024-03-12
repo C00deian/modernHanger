@@ -1,5 +1,6 @@
 /* 
 
+
 *{
     font-family: 'Poppins', sans-serif;
     margin:0; padding:0;
@@ -9,9 +10,36 @@
     text-transform: capitalize;
     transition: .2s linear;
 } */
+.hover-container {
+  position: relative;
 
-Link{
-    text-decoration: none;
+}
+
+
+
+.overlay {
+   position: absolute;
+  top: 155px;
+  left:6.5rem;
+  width: 100%;
+  margin: auto;
+  display: block;
+  width: 45%;
+border-radius:60px;
+background-color:#80b63e; /* Adjust the alpha value for transparency */
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px;
+  opacity: 0;
+  transition: 0.5s ease;
+}
+
+.hover-container:hover .overlay {
+  opacity: 1;
+}
+
+.MoreInfobtn{
+    text-decoration: none  !important;
 }
 
 .containerrr .heading{
@@ -57,13 +85,13 @@ Link{
 }
 
 .containerrr .box-containerrr .box h3{
-    color:#444;
+    color:#202020;
     font-size: 22px;
     padding:  15px;
 }
 
 .containerrr .box-containerrr .box p{
-    color:#777;
+    color:#202020;
     font-size: 15px;
     line-height: 1.5;
 }

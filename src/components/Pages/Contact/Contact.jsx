@@ -1,6 +1,6 @@
 import React from "react";
 import "./Contact.css";
-import Baner from "../../Utility/Baner";
+import Baner from './Banner/Baner'
 // import Hanger from "../../assets/Hanger1.jpg";
 
 
