@@ -1,18 +1,18 @@
 import React from "react";
 import ProductDisplay from "../ProductDisplay";
-import Marathon1 from "../assets/Catelogue/Miles Of Memory/1.jpg";
-import Marathon2 from "../assets/Catelogue/Miles Of Memory/2.jpg";
-import Marathon3 from "../assets/Catelogue/Miles Of Memory/3.jpg";
-import Marathon4 from "../assets/Catelogue/Miles Of Memory/4.jpg";
+import Miles1 from "../assets/Catelogue/Miles Of Memory/1.jpg";
+import Miles2 from "../assets/Catelogue/Miles Of Memory/2.jpg";
+import Miles3 from "../assets/Catelogue/Miles Of Memory/3.jpg";
+import Miles4 from "../assets/Catelogue/Miles Of Memory/4.jpg";
 
 function MilesofMeals() {
   const product1Details2 = {
     title: "Blueeagle Medal Hanger",
     brand: "Generic",
-    price: "₹1,200.00",
+    price: "₹ 598.00",
     taxInfo: "Inclusive of all taxes",
     emiInfo: "EMI starts at ₹109 per month. EMI options",
-    images: [Marathon2, Marathon1, Marathon3, Marathon4],
+    images: [Miles2, Miles1, Miles3, Miles4],
     details: [
       "Colour: Black",
       "Brand: Generic",

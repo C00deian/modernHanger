@@ -2,11 +2,6 @@
 import "./Blog.css";
 import ProductDisplay from "../../ProductDisplay";
 
-import Footer from "../Footer/Footer";
-import NewLetter from "../../NewLetter/NewLetter";
-import MiddleLast from "../../middleLast/MiddleLast";
-import Whatsap from "../../whatsapp/Whatsap";
-
 import NeverGiveUp from "../../assets/Catelogue/Never give up/Never-give-up.jpg";
 import NeverGiveUp1 from "../../assets/Catelogue/Never give up/Never-give-up1.jpg";
 import NeverGiveUp2 from "../../assets/Catelogue/Never give up/Never-give-up2.jpg";
@@ -18,7 +13,7 @@ function Blog() {
  const product1Details = {
    title: "Blueeagle Medal Hanger",
    brand: "Generic",
-   price: "₹1,200.00",
+   price: "₹ 598.00",
    taxInfo: "Inclusive of all taxes",
    emiInfo: "EMI starts at ₹109 per month. EMI options",
    images: [
@@ -48,10 +43,6 @@ function Blog() {
   return (
     <>
       <ProductDisplay productDetails={product1Details} />
-      <MiddleLast />
-      <NewLetter />
-      <Footer />
-      <Whatsap />
     </>
   );
 }

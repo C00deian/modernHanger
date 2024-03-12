@@ -4,18 +4,14 @@ import handleWhatsApp from "../Utility/WhatsAppUtils.jsx";
 
 function Header() {
 
-
-
-
-  
-
   return (
     <p className="header-title">
       {" "}
-      Get Personalized medal hanger at 25% OFF + Free Gift{" "}
+      <marquee >Get Personalized Medal Hanger at 25% OFF on your First Order
       <strong onClick={handleWhatsApp} style={{ color: "red", marginLeft:'5px' , cursor: 'pointer'}}>
         Shop Now
-      </strong>
+        </strong>
+      </marquee> 
     </p>
   );
   }

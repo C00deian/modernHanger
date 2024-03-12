@@ -12,7 +12,7 @@ function UnStoppable() {
   const product1Details5 = {
     title: "Blueeagle Medal Hanger",
     brand: "Generic",
-    price: "₹1,200.00",
+    price: "₹ 598.00",
     taxInfo: "Inclusive of all taxes",
     emiInfo: "EMI starts at ₹109 per month. EMI options",
     images: [Marathon, Marathon1, Marathon2, Marathon3, Marathon4, Marathon5],

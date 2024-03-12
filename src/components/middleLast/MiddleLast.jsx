@@ -18,7 +18,7 @@ function MiddleLast() {
           </div>
           <div className="box">
             <img src={MoneyBack} alt="" />
-            <h3>MONEY-BACK GURANTEE</h3>
+            <h3>MONEY-BACK GUARANTEE</h3>
             <p>
               Get a guaranteed 30-day money back guarantee when you place an
               order.
@@ -27,7 +27,7 @@ function MiddleLast() {
           <div className="box">
             <img src={world} alt="" />
             <h3>FREE SHIPPING</h3>
-            <p>Get Free Shipping when you spend INR 1999 or more.</p>
+            <p>Get Free Shipping when you spend INR 1999.00 or more.</p>
           </div>
           <div className="box">
             <img src={secure} alt="" />

@@ -12,7 +12,7 @@ function Marathon() {
    const product1Details1 = {
    title: "Blueeagle Medal Hanger",
    brand: "Generic",
-   price: "₹1,200.00",
+   price: "₹ 598.00",
    taxInfo: "Inclusive of all taxes",
    emiInfo: "EMI starts at ₹109 per month. EMI options",
    images: [
@@ -39,6 +39,7 @@ function Marathon() {
 
   return (
     <>
+      
       <ProductDisplay productDetails={product1Details1} />
     
     </>

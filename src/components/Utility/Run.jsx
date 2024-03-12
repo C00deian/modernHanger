@@ -1,19 +1,19 @@
 import React from 'react'
 import ProductDisplay from '../ProductDisplay';
 
-import Marathon from '../assets/Sports/Runner/Run.jpg'
-import Marathon1 from '../assets/Sports/Runner/Run1.jpg'
-import Marathon2 from "../assets/Sports/Runner/Run2.jpg";
-import Marathon3 from "../assets/Sports/Runner/Run3.jpg";
-import Marathon4 from "../assets/Sports/Runner/Run4.jpg";
+import Runner from '../assets/Sports/Runner/Run.jpg'
+import Runner1 from '../assets/Sports/Runner/Run1.jpg'
+import Runner2 from "../assets/Sports/Runner/Run2.jpg";
+import Runner3 from "../assets/Sports/Runner/Run3.jpg";
+import Runner4 from "../assets/Sports/Runner/Run4.jpg";
 function Run() {
            const product1Details4 = {
              title: "Blueeagle Medal Hanger",
              brand: "Generic",
-             price: "₹1,200.00",
+             price: "₹ 598.00",
              taxInfo: "Inclusive of all taxes",
              emiInfo: "EMI starts at ₹109 per month. EMI options",
-             images: [Marathon, Marathon1, Marathon2, Marathon3, Marathon4],
+             images: [Runner, Runner1, Runner2, Runner3, Runner4],
              details: [
                "Colour: Black",
                "Brand: Generic",
